@@ -44,3 +44,7 @@
 2450	2703	589276404	test/homework_test/01_expressions_test/hw_01_tests.exe	be40681b46add8b3
 5	562	589276569	src/homework/01_expressions/CMakeFiles/hw_01_exe.dir/main.cpp.obj	38a2aca02e60d14
 562	733	589276570	src/homework/01_expressions/hw_01_exe.exe	6122e16385208243
+5	599	589276942	src/homework/01_expressions/CMakeFiles/hw_01_exe.dir/main.cpp.obj	38a2aca02e60d14
+600	797	589276942	src/homework/01_expressions/hw_01_exe.exe	6122e16385208243
+8	2738	589276944	test/classwork_test/01_assign_test/CMakeFiles/cw_01_tests.dir/types_tests.cpp.obj	e03dc6f462fa02bf
+2738	2999	589276944	test/classwork_test/01_assign_test/cw_01_tests.exe	27de0b888de53b61

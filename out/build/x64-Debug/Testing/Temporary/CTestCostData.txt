@@ -1,5 +1,4 @@
-cw_01_tests 0 0
-ex_01_tests 1 0.0366397
-hw_01_tests 1 0.0164004
+cw_01_tests 1 0.0221669
+ex_01_tests 2 0.0091438
+hw_01_tests 2 0.0093501
 ---
-cw_01_tests
