@@ -28,7 +28,13 @@ e
 s
 t
 */
-
+void loop_string_w_auto(std::string str)
+{
+	for(auto ch:str)
+	{
+		std::cout << ch << "\n";
+	}
+}
 
 void loop_vector_w_index() 
 {

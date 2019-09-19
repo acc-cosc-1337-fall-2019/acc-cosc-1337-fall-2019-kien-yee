@@ -1,4 +1,9 @@
-#write includes statements
+//#write includes statements
+#include"loops.h"
+#include<iostream>
+using std::cout;
+using std::cin;
+
 
 //write using statements for cin and cout
 
@@ -10,6 +15,21 @@ factorial.  Also, loop continues as long as user wants to.
 */
 int main() 
 {
+	auto user_choice = 'y';
+	int user_num;
+	int fac;
+	do
+	{
+		cout << "Enter a number: ";
+		cin >> user_num;
 
+		fac = factorial(user_num);
+
+		cout << "Factorial of number is: " << fac << "\n";
+		cout << "Continue? y or n ";
+		cin >> user_choice;
+
+
+	} while (user_choice == 'y');
 	return 0;
 }
