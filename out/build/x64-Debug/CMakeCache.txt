@@ -196,12 +196,6 @@ cosc1337_BINARY_DIR:STATIC=C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-201
 //Value Computed by CMake
 cosc1337_SOURCE_DIR:STATIC=C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee
 
-//Value Computed by CMake
-cw_02_library_BINARY_DIR:STATIC=C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/classwork/02_assign
-
-//Value Computed by CMake
-cw_02_library_SOURCE_DIR:STATIC=C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/src/classwork/02_assign
-
 
 ########################
 # INTERNAL cache entries
@@ -291,7 +285,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=22
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RC_COMPILER
