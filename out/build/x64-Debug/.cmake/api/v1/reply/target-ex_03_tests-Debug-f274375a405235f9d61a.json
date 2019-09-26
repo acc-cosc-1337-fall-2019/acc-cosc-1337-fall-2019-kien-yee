@@ -295,7 +295,7 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "ex_03_01_while_library::@2b6036037def8c53ece3"
+			"id" : "ex_03_03_library::@7b3f7a32bf774ab23c5c"
 		},
 		{
 			"backtrace" : 2,
@@ -304,10 +304,6 @@
 		{
 			"backtrace" : 2,
 			"id" : "ex_03_02_library::@e4b972fb3eaa1577e56f"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "ex_03_03_library::@7b3f7a32bf774ab23c5c"
 		},
 		{
 			"backtrace" : 2,
@@ -320,6 +316,10 @@
 		{
 			"backtrace" : 2,
 			"id" : "ex_03_07_library::@7c8498d4a71fc6a52142"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ex_03_01_while_library::@2b6036037def8c53ece3"
 		}
 	],
 	"id" : "ex_03_tests::@3e5c8e731de3e22faed5",
