@@ -50,3 +50,59 @@ double calculate_gpa(int credit_hours, double credit_points)
 	return credit_points / credit_hours;
 }
 
+string get_letter_grade_using_if(int grade)
+{
+	if (grade >= 90 && grade <= 100)
+	{
+		return "A";
+	}
+	else if (grade >= 80 && grade <= 89)
+	{
+		return "B";
+	}
+	else if (grade >= 70 && grade <= 79)
+	{
+		return "C";
+	}
+	else if (grade >= 60 && grade <= 69)
+	{
+		return "D";
+	}
+	else if(grade >= 00 && grade <= 59)
+	{
+		return "F";
+	}
+	else
+	{
+		return "Invalid number";
+	}
+
+}
+
+string get_letter_grade_using_switch(int grade)
+{
+	switch (grade/10)
+	{
+	case 10:
+	case 9: return "A";
+		break;
+	case 8: return "B";
+		break;
+	case 7: return "C";
+		break;
+	case 6: return "D";
+		break;
+	case 5:
+	case 4:
+	case 3:
+	case 2:
+	case 1:
+	case 0: return "F";
+		break;
+
+	default : return "Invalid entry";
+
+	}
+	
+}
+

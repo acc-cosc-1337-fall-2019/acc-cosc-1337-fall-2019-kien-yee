@@ -18,6 +18,7 @@ TEST_CASE("test while loop sum  of squares") {
 {
 	int v = 5;
 	int r = 10;
+	int c = 0;
 	pass_by_val_and_ref(v, r,c);
 
 	REQUIRE(v == 5);
