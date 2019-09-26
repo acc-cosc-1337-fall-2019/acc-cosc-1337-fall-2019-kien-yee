@@ -9,7 +9,7 @@ void pass_by_val_and_ref(int num1/*value*/, int & num2/*reference*/,const int &n
 {
 	num1 = 100;
 	num2 = 50;
-	//num3 = 100; const makes ref parameter read only
+	//num3 = 100; //const makes ref parameter read only
 }
 
 
