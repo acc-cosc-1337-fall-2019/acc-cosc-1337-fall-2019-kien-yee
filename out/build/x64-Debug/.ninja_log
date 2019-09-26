@@ -51,3 +51,6 @@
 6588	7289	591171037	test/homework_test/03_iteration/hw_03_tests.exe	49a8c146d23636e3
 6626	7322	591171037	test/examples_test/03_module_test/ex_03_tests.exe	aea3e6b52666fc55
 2	676	591171582	build.ninja	9e2a4283c8c222ef
+1	532	591172720	build.ninja	9e2a4283c8c222ef
+6	3041	591172723	test/homework_test/03_iteration_test/CMakeFiles/hw_03_tests.dir/03_iteration_tests.cpp.obj	cea19c4397cdc6c
+3042	3564	591172724	test/homework_test/03_iteration_test/hw_03_tests.exe	d1ff4af7b969c3f3
