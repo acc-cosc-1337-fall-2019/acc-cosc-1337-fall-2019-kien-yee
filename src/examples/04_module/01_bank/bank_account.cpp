@@ -14,7 +14,15 @@ void BankAccount::deposit(int amount)
 	}
 }
 
-int BankAccount::get_balance()
+int BankAccount::get_balance() const
 {
 	return balance;
+}
+
+void BankAccount::withdraw(int amount)
+{
+	if (balance > amount)
+	{
+		balance -= amount;
+	}
 }
