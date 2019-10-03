@@ -18,6 +18,7 @@ Iterate the vector and display the Area for each Rectangle on one line and the t
 */
 int main()
 {
+	int total_area;
 	vector<Rectanglee> rectangles{};
 	rectangles.push_back(Rectanglee(4, 5));
 	rectangles.push_back(Rectanglee(10, 10));
@@ -25,10 +26,8 @@ int main()
 
 	for (auto r : rectangles)
 	{
-		int total_area;
-		cout << "Area: " << r.get_area() << "\n";
 		
-		total_area += r.get_area();
+		cout << "Area: " << r.get_area() << "\n";
 		
 
 	}
