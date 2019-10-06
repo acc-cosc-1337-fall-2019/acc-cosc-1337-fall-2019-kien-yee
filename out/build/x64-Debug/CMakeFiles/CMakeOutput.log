@@ -50,17 +50,17 @@ The CXX compiler identification is MSVC, found in "C:/Users/Kien Yee/source/repo
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):E:/New folder/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_bc340 
-[1/2] Building C object CMakeFiles\cmTC_bc340.dir\testCCompiler.c.obj
-[2/2] Linking C executable cmTC_bc340.exe
+Run Build Command(s):E:/New folder/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f4e58 
+[1/2] Building C object CMakeFiles\cmTC_f4e58.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_f4e58.exe
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):E:/New folder/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_ed335 
-[1/2] Building C object CMakeFiles\cmTC_ed335.dir\CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_ed335.exe
+Run Build Command(s):E:/New folder/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5dab4 
+[1/2] Building C object CMakeFiles\cmTC_5dab4.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_5dab4.exe
 
 
 
@@ -68,9 +68,9 @@ Run Build Command(s):E:/New folder/Common7/IDE/CommonExtensions/Microsoft/CMake/
 Detecting C [] compiler features compiled with the following output:
 Change Dir: C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):E:/New folder/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_092e8 
-[1/2] Building C object CMakeFiles\cmTC_092e8.dir\feature_tests.c.obj
-[2/2] Linking C executable cmTC_092e8.exe
+Run Build Command(s):E:/New folder/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_3c258 
+[1/2] Building C object CMakeFiles\cmTC_3c258.dir\feature_tests.c.obj
+[2/2] Linking C executable cmTC_3c258.exe
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -78,17 +78,17 @@ Run Build Command(s):E:/New folder/Common7/IDE/CommonExtensions/Microsoft/CMake/
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):E:/New folder/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_48cc1 
-[1/2] Building CXX object CMakeFiles\cmTC_48cc1.dir\testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_48cc1.exe
+Run Build Command(s):E:/New folder/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_158e8 
+[1/2] Building CXX object CMakeFiles\cmTC_158e8.dir\testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_158e8.exe
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):E:/New folder/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_0573a 
-[1/2] Building CXX object CMakeFiles\cmTC_0573a.dir\CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_0573a.exe
+Run Build Command(s):E:/New folder/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_4ee8a 
+[1/2] Building CXX object CMakeFiles\cmTC_4ee8a.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_4ee8a.exe
 
 
 
@@ -96,9 +96,9 @@ Run Build Command(s):E:/New folder/Common7/IDE/CommonExtensions/Microsoft/CMake/
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):E:/New folder/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_00ea2 
-[1/2] Building CXX object CMakeFiles\cmTC_00ea2.dir\feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_00ea2.exe
+Run Build Command(s):E:/New folder/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_9df86 
+[1/2] Building CXX object CMakeFiles\cmTC_9df86.dir\feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_9df86.exe
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
