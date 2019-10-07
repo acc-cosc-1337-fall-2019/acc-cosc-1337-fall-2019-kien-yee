@@ -2,11 +2,23 @@
 
 //atm.cpp
 
-ATM::ATM() :account(1000)
+ATM::ATM(BankAccount a) :account(a)
 {
 }
+
 
 void ATM::display_balance() const
 {
 	cout << "Balance: " << account.get_balance();
 }
+
+void ATM::deposit(int amount)
+{
+	account.deposit(amount);
+}
+
+void ATM::withdraw(int amount)
+{
+	account.withdraw(amount);
+}
+
