@@ -19,3 +19,10 @@ void acc::Rectangle::calculate_area()
 {
 	area = width * height;
 }
+
+std::ostream & acc::operator<<(std::ostream & out, const Rectangle & r)
+{
+	std::cout << "Area: " << r.area << "\n";
+	return out;
+	// TODO: insert return statement here
+}
