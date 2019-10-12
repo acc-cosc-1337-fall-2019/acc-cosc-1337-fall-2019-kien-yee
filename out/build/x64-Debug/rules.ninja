@@ -12,12 +12,6 @@
 # =============================================================================
 
 #############################################
-# localized /showIncludes string
-
-msvc_deps_prefix = Note: including file: 
-
-
-#############################################
 # Rule for running custom commands.
 
 rule CUSTOM_COMMAND

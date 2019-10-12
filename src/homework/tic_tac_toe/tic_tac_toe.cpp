@@ -51,7 +51,7 @@ void TicTacToe::set_next_player()
 
 bool TicTacToe::check_column_win()
 {
-	for (std::size_t i = 0; i < 3; i ++)
+	for (std::size_t i = 0; i < 3; i++)
 	{
 		if (pegs[i] == pegs[i + 3] && pegs[i + 3] == pegs[i + 6] && pegs[i +6] != " ")
 		{
@@ -63,15 +63,15 @@ bool TicTacToe::check_column_win()
 
 bool TicTacToe::check_row_win()
 {
-	for (std::size_t i = 0; i < 7; i += 3)
+	for (std::size_t i = 0; i < 7; i+=3)
 	{
 		if (pegs[i] == pegs[i + 1] && pegs[i + 1] == pegs[i + 2] && pegs[i + 2] != " ")
 		{
 			return true;
 		}
 
-		return false;
 	}
+	return false;
 }
 
 bool TicTacToe::check_diagonal_win()
@@ -82,8 +82,9 @@ bool TicTacToe::check_diagonal_win()
 		{
 			return true;
 		}
-		return false;
+		
 	}
+	return false;
 }
 
 void TicTacToe::clear_board()
