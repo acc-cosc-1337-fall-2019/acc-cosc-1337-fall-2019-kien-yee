@@ -78,7 +78,8 @@ bool TicTacToe::check_diagonal_win()
 {
 	for (std::size_t i = 0; i < 3; i+=2)
 	{
-		if (pegs[i] == pegs[i + 4] && pegs[i + 4] == pegs[i + 7] && pegs[i + 7] != " ")
+		if (pegs[i] == pegs[i + 4] && pegs[i + 4] == pegs[i + 8] && pegs[i + 8] != " " || pegs[i] == pegs[i+2] && pegs[i+2] == pegs[i+4]
+			&& pegs[i+4] != " ")
 		{
 			return true;
 		}
