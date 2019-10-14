@@ -29,7 +29,7 @@ string TicTacToe::get_player() const
 
 void TicTacToe::display_board() const
 {
-	for (auto i = 0; i <= 6; i+=3)
+	for (std::size_t i = 0; i <= 6; i+=3)
 	{
 		cout << pegs[i] << "|" << pegs[i + 1] << "|" << pegs[i+2] << "\n";
 	}
@@ -76,10 +76,9 @@ bool TicTacToe::check_row_win()
 
 bool TicTacToe::check_diagonal_win()
 {
-	for (std::size_t i = 0; i < 3; i+=2)
 	{
-		if (pegs[i] == pegs[i + 4] && pegs[i + 4] == pegs[i + 8] && pegs[i + 8] != " " || pegs[i] == pegs[i+2] && pegs[i+2] == pegs[i+4]
-			&& pegs[i+4] != " ")
+		if (pegs[0] == pegs[4] && pegs[4] == pegs[8] && pegs[8] != " " || pegs[2] == pegs[4] && pegs[4] == pegs[6]
+			&& pegs[6] != " ")
 		{
 			return true;
 		}
