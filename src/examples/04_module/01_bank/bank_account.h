@@ -17,6 +17,7 @@ public:
 	void deposit(int amount);
 	void withdraw(int amount);
 	friend std::istream & operator >> (std::istream & in, BankAccount & b);
+	BankAccount operator+(const BankAccount& b);
 
 protected:
 	int balance;
