@@ -33,13 +33,6 @@ int main()
 		cout << "\nEnter 1 to Play again, any other key to exit: ";
 		cin >> user_continue;
 
-
-
-
-
-
-
-
 	} while (user_continue == '1');
 	return 0;
 }
