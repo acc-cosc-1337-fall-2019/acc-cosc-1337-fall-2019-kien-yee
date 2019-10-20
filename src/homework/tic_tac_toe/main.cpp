@@ -11,15 +11,13 @@ int main()
 		cout << "X or O start? : ";
 		cin >> start; cout << "\n";
 		board.start_game(start);
-		board.display_board();
+		cout << board;
 		
 		while (!board.game_over())
 		{
 			
-			cout << "\nEnter position for " << board.get_player() << " ";
-			cin >> p_position;
-			board.mark_board(p_position);
-			board.display_board();
+			cin >> board;
+			cout << board;
 			
 		}
 		if (board.get_player() == "X")
