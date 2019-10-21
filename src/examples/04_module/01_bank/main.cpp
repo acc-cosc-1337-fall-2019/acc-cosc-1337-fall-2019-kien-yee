@@ -25,7 +25,7 @@ int main()
 	atm.deposit(100);
 	atm.withdraw(50);
 	atm.display_balance();
-	cin >> a;
+	cin >> a
 	cout << a;*/
 
 	/*Customer customer;
@@ -34,19 +34,20 @@ int main()
 	customer.add_account(BankAccount(5000));
 
 	cout << customer;*/
-	CheckingAccount a(1500);
-	cout << a;
+	CheckingAccount checking(1500);
+
+	cout << "\nChecking get_balance " << checking.get_balance() << "\n";
 
 	SavingsAccount savings(500);
-	cout << savings;
-	cout << "\n" << savings.get_balance() << "\n";
-	savings.add_interest();
+	
+	cout << "\nSavings get balance " << savings.get_balance() << "\n";
 
-	cout << savings;
-
-	BankAccount c = a + savings;
-
-	cout << c;
-
+	BankAccount& account = savings;
+	cout << "\nRef to savings get_balance: " << account.get_balance() << "\n";
+	
 	return 0;
 }
+
+
+
+

@@ -11,7 +11,7 @@ class BankAccount
 public:
 	BankAccount();
 	BankAccount(int b) :balance(b) {};
-	int get_balance() const;
+	virtual int get_balance() const;
 	friend void display(const BankAccount& account);
 	friend std::ostream & operator<<(std::ostream & out, const BankAccount & b);
 	void deposit(int amount);
