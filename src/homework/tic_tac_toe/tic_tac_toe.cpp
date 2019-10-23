@@ -24,12 +24,8 @@ void TicTacToe::start_game(string player)
 // position is what user sees when you save posiiton to vector subtract 1 from position
 void TicTacToe::mark_board(int position)
 {
-
 	pegs[position - 1] = next_player;
-	if (!game_over())
-	{
-		set_next_player();
-	}
+	set_next_player();
 }
 
 string TicTacToe::get_player() const
