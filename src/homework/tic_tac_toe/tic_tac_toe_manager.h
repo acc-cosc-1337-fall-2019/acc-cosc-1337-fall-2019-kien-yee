@@ -10,7 +10,7 @@ using std::vector;
 class TicTacToeManager
 {
 public:
-	void save_game(TicTacToe game);
+	void save_game(TicTacToe& game);
 	friend ostream& operator <<(ostream& out, const TicTacToeManager& m);
 
 
