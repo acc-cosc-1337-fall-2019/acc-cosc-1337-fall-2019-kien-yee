@@ -25,3 +25,7 @@
 1629	5579	594630289	test/homework_test/tic_tac_toe_test/CMakeFiles/tic_tac_toe_test.dir/tic_tac_toe_test.cpp.obj	4c3dda4d830b47a7
 5579	6220	594630290	test/homework_test/tic_tac_toe_test/tic_tac_toe_test.exe	4993bef99eb661f0
 5572	7279	594630291	src/examples/08_module/ex_08_gui_hello_world_exe.exe	4ec656c3b8a63b23
+1	498	594630703	build.ninja	9e2a4283c8c222ef
+5	2829	594630706	test/homework_test/tic_tac_toe_test/CMakeFiles/tic_tac_toe_tests.dir/tic_tac_toe_test.cpp.obj	46a975c3a2e6cec
+2830	3374	594630706	test/homework_test/tic_tac_toe_test/tic_tac_toe_tests.exe	2591d53f41861331
+0	509	594630804	build.ninja	9e2a4283c8c222ef
