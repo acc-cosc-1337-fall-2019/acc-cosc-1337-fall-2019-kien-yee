@@ -106,11 +106,20 @@ void TicTacToe::set_winner()
 
 std::ostream& operator<<(std::ostream& out, const TicTacToe& board)
 {
-	for (std::size_t i = 0; i <= 6; i += 3)
-	{
-		out << board.pegs[i] << "|" << board.pegs[i + 1] << "|" << board.pegs[i + 2] << "\n";
+	if (board.pegs.size() == 9) {
+		for (std::size_t i = 0; i <= 6; i += 3)
+		{
+			out << board.pegs[i] << "|" << board.pegs[i + 1] << "|" << board.pegs[i + 2] << "\n";
+		}
+		return out;
 	}
-	return out;
+	else if (board.pegs.size() == 16){
+		for (std::size_t i = 0; i <= 12; i += 4)
+		{
+			out << board.pegs[i] << "|" << board.pegs[i + 1] << "|" << board.pegs[i + 2] << "|" << board.pegs[i + 3] << "\n";
+		}
+		return out;
+	}
 }
 
 std::istream& operator>>(std::istream& in, TicTacToe& board)
