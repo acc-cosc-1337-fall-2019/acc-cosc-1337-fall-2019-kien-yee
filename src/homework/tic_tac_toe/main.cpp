@@ -49,7 +49,7 @@ int main()
 		
 	} while (user_continue == '1');
 
-	cout << "History: \n";
+	cout << "\nHistory: \n";
 	cout << manager;
 
 	return 0;

@@ -6,7 +6,7 @@
 TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
 }
-TEST_CASE("Test win by first column", "[X wins first column]")
+TEST_CASE("Test win by first column [X wins first column]")
 { /* Tic Tac Toe Board
 		123
 		456
@@ -200,7 +200,7 @@ TEST_CASE("Test for no winner")
 
 
 
-TEST_CASE("TicTacToe4 Test win by first column", "[X wins first column]")
+TEST_CASE("TicTacToe4 Test win by first column [X wins first column]")
 { /* Tic Tac Toe Board
 		123
 		456
@@ -310,7 +310,7 @@ TEST_CASE("TicTacToe4 Test win by fourth column")
 }
 TEST_CASE("TicTacToe4 Test win by first row")
 {
-	TicTacToe3 board;
+	TicTacToe4 board;
 	board.start_game("X");
 	board.mark_board(1);//X         
 	REQUIRE(board.game_over() == false);
@@ -416,7 +416,7 @@ TEST_CASE("TicTacToe4 Test win diagnolly from top left")
 }
 TEST_CASE("TicTacToe4 Test wom diagonally from bottom left")
 {
-	TicTacToe3 board;
+	TicTacToe4 board;
 	board.start_game("X");
 	board.mark_board(13);//X
 	REQUIRE(board.game_over() == false);
@@ -438,7 +438,7 @@ TEST_CASE("TicTacToe4 Test wom diagonally from bottom left")
 }
 TEST_CASE("TicTacToe4 Test for no winner")
 {
-	TicTacToe3 board;
+	TicTacToe4 board;
 	board.start_game("X");
 	board.mark_board(1);//X
 	REQUIRE(board.game_over() == false);
