@@ -27,3 +27,16 @@
 5	2662	594633420	test/homework_test/tic_tac_toe_test/CMakeFiles/tic_tac_toe_tests.dir/tic_tac_toe_test.cpp.obj	46a975c3a2e6cec
 2662	3244	594633421	test/homework_test/tic_tac_toe_test/tic_tac_toe_tests.exe	2591d53f41861331
 0	487	594633427	build.ninja	9e2a4283c8c222ef
+18	2816	594787950	src/homework/tic_tac_toe/CMakeFiles/tic_tac_toe_library.dir/tic_tac_toe_4.cpp.obj	5d3d3ba38b4b9730
+30	2819	594787950	src/homework/tic_tac_toe/CMakeFiles/tic_tac_toe_library.dir/tic_tac_toe_3.cpp.obj	bc9c9e3ab8450c86
+92	2843	594787950	src/homework/tic_tac_toe/CMakeFiles/tic_tac_toe_exe.dir/tic_tac_toe_4.cpp.obj	df59547b0ce41cd3
+63	2847	594787950	src/homework/tic_tac_toe/CMakeFiles/tic_tac_toe_exe.dir/tic_tac_toe_3.cpp.obj	47bd800e386eaa76
+37	2859	594787950	src/homework/tic_tac_toe/CMakeFiles/tic_tac_toe_library.dir/tic_tac_toe.cpp.obj	97a65963eb57ada8
+55	2873	594787950	src/homework/tic_tac_toe/CMakeFiles/tic_tac_toe_exe.dir/tic_tac_toe.cpp.obj	5a76706d3ff1a916
+82	2905	594787950	src/homework/tic_tac_toe/CMakeFiles/tic_tac_toe_exe.dir/tic_tac_toe_manager.cpp.obj	b7ed9aaf6c8c47ca
+46	2908	594787950	src/homework/tic_tac_toe/CMakeFiles/tic_tac_toe_library.dir/tic_tac_toe_manager.cpp.obj	a3675e20111cefd4
+73	3084	594787950	src/homework/tic_tac_toe/CMakeFiles/tic_tac_toe_exe.dir/main.cpp.obj	89947d3faae7199b
+2915	3127	594787950	src/homework/tic_tac_toe/tic_tac_toe_library.lib	b538bbe6121f36d7
+3085	6657	594787953	src/homework/tic_tac_toe/tic_tac_toe_exe.exe	9f0b4eca88166f60
+103	8369	594787955	test/homework_test/tic_tac_toe_test/CMakeFiles/tic_tac_toe_tests.dir/tic_tac_toe_test.cpp.obj	46a975c3a2e6cec
+8369	9194	594787956	test/homework_test/tic_tac_toe_test/tic_tac_toe_tests.exe	2591d53f41861331

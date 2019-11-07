@@ -6,7 +6,7 @@
 int main() 
 {
 	
-	TicTacToeManager manager;
+	unique_ptr<TicTacToeManager> manager = std::make_unique<TicTacToeManager>();
 	string start;
 	auto user_continue = '1';
 	int game_type;
@@ -14,15 +14,15 @@ int main()
 	{
 		cout << "Play win by 3 or 4: ";
 		cin >> game_type;
-		TicTacToe* board;
+		unique_ptr<TicTacToe> board;
 
 		if (game_type == 3)
 		{
-			board = new TicTacToe3();
+			board = std::make_unique<TicTacToe3>();
 		}
 		else
 		{
-			board = new TicTacToe4();
+			board = std::make_unique<TicTacToe4>();
 		}
 		
 		
@@ -41,7 +41,7 @@ int main()
 			
 		}
 
-		manager.save_game(*board);
+		manager->save_game(board);
 
 		cout << "\nEnter 1 to Play again, any other key to exit: ";
 		cin >> user_continue;
