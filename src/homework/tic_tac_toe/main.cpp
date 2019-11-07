@@ -50,7 +50,7 @@ int main()
 	} while (user_continue == '1');
 
 	cout << "\nHistory: \n";
-	cout << manager;
+	cout << *manager;
 
 	return 0;
 }
