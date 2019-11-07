@@ -358,6 +358,12 @@ gui_hello_world_BINARY_DIR:STATIC=C:/Users/Kien Yee/source/repos/acc-cosc-1337-f
 //Value Computed by CMake
 gui_hello_world_SOURCE_DIR:STATIC=C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/src/examples/08_module
 
+//Value Computed by CMake
+gui_tic_tac_toe_exe_BINARY_DIR:STATIC=C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/homework/tic_tac_toe_gui
+
+//Value Computed by CMake
+gui_tic_tac_toe_exe_SOURCE_DIR:STATIC=C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/src/homework/tic_tac_toe_gui
+
 //Set wxWidgets configuration (mswud)
 wxWidgets_CONFIGURATION:STRING=mswud
 
@@ -456,7 +462,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RC_COMPILER

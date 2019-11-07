@@ -27,6 +27,7 @@ public:
 	friend std::ostream& operator<<(std::ostream& out, const TicTacToe& board);
 	friend std::istream& operator >> (std::istream& in, TicTacToe& board);
 	string get_winner() const;
+	const std::vector<std::string>& get_pegs();
 
 protected:
 	virtual bool check_column_win()=0;
