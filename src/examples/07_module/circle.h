@@ -1,10 +1,14 @@
 //circle.h
-#ifndef CIRCLE_H
-#define CIRCLE_H
-class Circle : public Shape
-{
-public:
-	void draw() override { std::cout << "Draw circle"; }
-};
+#ifndef  CIRCLE_H
+#define  CIRCLE_H
 
-#endif 
+#include"../07_module/shape.h"
+namespace mod7ex
+{
+	class Circle : public Shape
+	{
+	public:
+		void draw() override;
+	};
+}
+#endif // ! CIRCLE_h
