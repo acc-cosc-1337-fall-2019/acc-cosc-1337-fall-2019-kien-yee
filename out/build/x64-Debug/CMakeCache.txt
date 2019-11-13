@@ -353,6 +353,18 @@ cosc1337_BINARY_DIR:STATIC=C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-201
 cosc1337_SOURCE_DIR:STATIC=C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee
 
 //Value Computed by CMake
+grahics_clock_BINARY_DIR:STATIC=C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/10_module/02_clock
+
+//Value Computed by CMake
+grahics_clock_SOURCE_DIR:STATIC=C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/src/examples/10_module/02_clock
+
+//Value Computed by CMake
+graphics_shapes_BINARY_DIR:STATIC=C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/10_module/01_shapes
+
+//Value Computed by CMake
+graphics_shapes_SOURCE_DIR:STATIC=C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/src/examples/10_module/01_shapes
+
+//Value Computed by CMake
 gui_hello_world_BINARY_DIR:STATIC=C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/08_module
 
 //Value Computed by CMake
@@ -462,7 +474,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RC_COMPILER

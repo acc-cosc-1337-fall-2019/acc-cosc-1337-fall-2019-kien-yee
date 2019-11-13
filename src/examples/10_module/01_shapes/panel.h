@@ -5,7 +5,7 @@
 #include<string>
 #include<memory>
 #include "text.h"
-#include "circle.h"
+#include "../src/examples/10_module/01_shapes/circle.h"
 #include "rectangle.h"
 
 class Panel : public wxPanel 
@@ -16,7 +16,7 @@ private:
 	void OnDraw(wxCommandEvent& event);
 	void OnMouseDown(wxMouseEvent& event);
 	void OnMouseUp(wxMouseEvent& event);
-	void draw_shape(Point p, int width = 10, int height = 5, int radius = 25);
+	void draw_shape(Point p, int width = 500, int height = 300, int radius = 100);
 	wxTextCtrl* draw_text;
 	wxRadioBox* radio_box;
 	Point coord{0, 0};
