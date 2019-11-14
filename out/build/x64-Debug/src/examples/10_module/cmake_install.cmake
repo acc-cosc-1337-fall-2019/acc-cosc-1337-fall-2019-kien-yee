@@ -34,6 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/10_module/01_lib/cmake_install.cmake")
   include("C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/10_module/01_shapes/cmake_install.cmake")
   include("C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/10_module/02_clock/cmake_install.cmake")
 

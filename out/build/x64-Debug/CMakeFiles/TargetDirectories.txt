@@ -18,7 +18,10 @@ C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-De
 C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/10_module/CMakeFiles/rebuild_cache.dir
 C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/10_module/CMakeFiles/test.dir
 C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/10_module/CMakeFiles/edit_cache.dir
-C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/10_module/01_shapes/CMakeFiles/ex_10_01_library.dir
+C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/10_module/01_lib/CMakeFiles/ex_10_01_lib.dir
+C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/10_module/01_lib/CMakeFiles/rebuild_cache.dir
+C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/10_module/01_lib/CMakeFiles/test.dir
+C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/10_module/01_lib/CMakeFiles/edit_cache.dir
 C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/10_module/01_shapes/CMakeFiles/ex_10_01_exe.dir
 C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/10_module/01_shapes/CMakeFiles/rebuild_cache.dir
 C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/10_module/01_shapes/CMakeFiles/test.dir
