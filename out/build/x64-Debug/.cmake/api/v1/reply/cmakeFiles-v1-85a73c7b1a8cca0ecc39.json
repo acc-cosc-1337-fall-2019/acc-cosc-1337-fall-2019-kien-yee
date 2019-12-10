@@ -166,6 +166,12 @@
 			"path" : "src/examples/12_module/10_arrays_dyn_3/CMakeLists.txt"
 		},
 		{
+			"path" : "src/examples/13_module/CMakeLists.txt"
+		},
+		{
+			"path" : "src/examples/13_module/01_recursion/CMakeLists.txt"
+		},
+		{
 			"path" : "src/homework/CMakeLists.txt"
 		},
 		{

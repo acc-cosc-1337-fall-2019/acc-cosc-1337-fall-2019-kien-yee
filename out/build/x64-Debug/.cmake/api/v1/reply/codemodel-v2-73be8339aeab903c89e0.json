@@ -9,7 +9,7 @@
 					"childIndexes" : 
 					[
 						1,
-						17
+						19
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -24,7 +24,7 @@
 					[
 						2,
 						4,
-						16
+						18
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -67,7 +67,8 @@
 					"build" : "src/examples",
 					"childIndexes" : 
 					[
-						5
+						5,
+						16
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -242,6 +243,35 @@
 					]
 				},
 				{
+					"build" : "src/examples/13_module",
+					"childIndexes" : 
+					[
+						17
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "src/examples/13_module"
+				},
+				{
+					"build" : "src/examples/13_module/01_recursion",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 0,
+					"source" : "src/examples/13_module/01_recursion",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
 					"build" : "src/homework",
 					"minimumCMakeVersion" : 
 					{
@@ -255,9 +285,9 @@
 					"build" : "test",
 					"childIndexes" : 
 					[
-						18,
-						19,
-						21
+						20,
+						21,
+						23
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -273,7 +303,7 @@
 					{
 						"string" : "3.8"
 					},
-					"parentIndex" : 17,
+					"parentIndex" : 19,
 					"projectIndex" : 0,
 					"source" : "test/classwork_test"
 				},
@@ -281,13 +311,13 @@
 					"build" : "test/examples_test",
 					"childIndexes" : 
 					[
-						20
+						22
 					],
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.8"
 					},
-					"parentIndex" : 17,
+					"parentIndex" : 19,
 					"projectIndex" : 0,
 					"source" : "test/examples_test"
 				},
@@ -297,7 +327,7 @@
 					{
 						"string" : "3.8"
 					},
-					"parentIndex" : 19,
+					"parentIndex" : 21,
 					"projectIndex" : 0,
 					"source" : "test/examples_test/12_module_test",
 					"targetIndexes" : 
@@ -311,7 +341,7 @@
 					{
 						"string" : "3.8"
 					},
-					"parentIndex" : 17,
+					"parentIndex" : 19,
 					"projectIndex" : 0,
 					"source" : "test/homework_test"
 				}
@@ -343,7 +373,9 @@
 						18,
 						19,
 						20,
-						21
+						21,
+						22,
+						23
 					],
 					"name" : "cosc1337",
 					"targetIndexes" : 
@@ -361,7 +393,9 @@
 						10,
 						11,
 						12,
-						13
+						13,
+						14,
+						15
 					]
 				}
 			],
@@ -459,10 +493,24 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 20,
+					"directoryIndex" : 22,
 					"id" : "ex_12_tests::@79eb77148f18570f5fe2",
 					"jsonFile" : "target-ex_12_tests-Debug-185db8613975a00073fc.json",
 					"name" : "ex_12_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_13_01_exe::@eeb0b7bae7a45a2a045b",
+					"jsonFile" : "target-ex_13_01_exe-Debug-6474123329cc010890f0.json",
+					"name" : "ex_13_01_exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_13_01_library::@eeb0b7bae7a45a2a045b",
+					"jsonFile" : "target-ex_13_01_library-Debug-5c933794bad7ed016f06.json",
+					"name" : "ex_13_01_library",
 					"projectIndex" : 0
 				}
 			]

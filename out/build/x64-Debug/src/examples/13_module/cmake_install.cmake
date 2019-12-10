@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/src/examples
+# Install script for directory: C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/src/examples/13_module
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/12_module/cmake_install.cmake")
-  include("C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/13_module/cmake_install.cmake")
+  include("C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/13_module/01_recursion/cmake_install.cmake")
 
 endif()
 

@@ -3,10 +3,13 @@
 
 int main() 
 {
-	display(5);
+	//call_myself();//infinite recursive call
 
-	int f = factorial(5);
-	std::cout << f;
+	display(3);
+
+	//int f = factorial(5);
+	//std::cout << f;
+
 	
 	return 0;
 }

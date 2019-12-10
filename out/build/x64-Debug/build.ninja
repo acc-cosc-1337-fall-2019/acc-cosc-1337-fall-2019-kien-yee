@@ -1078,6 +1078,147 @@ build src\examples\12_module\10_arrays_dyn_3\CMakeFiles\edit_cache.util: CUSTOM_
 build src\examples\12_module\10_arrays_dyn_3\edit_cache: phony src\examples\12_module\10_arrays_dyn_3\CMakeFiles\edit_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
+# C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/src/examples/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src\examples\13_module\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Kien Yee\source\repos\acc-cosc-1337-fall-2019-kien-yee\out\build\x64-Debug\src\examples\13_module" && "E:\New folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -S"C:\Users\Kien Yee\source\repos\acc-cosc-1337-fall-2019-kien-yee" -B"C:\Users\Kien Yee\source\repos\acc-cosc-1337-fall-2019-kien-yee\out\build\x64-Debug""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+build src\examples\13_module\rebuild_cache: phony src\examples\13_module\CMakeFiles\rebuild_cache.util
+
+#############################################
+# Utility command for test
+
+build src\examples\13_module\CMakeFiles\test.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Kien Yee\source\repos\acc-cosc-1337-fall-2019-kien-yee\out\build\x64-Debug\src\examples\13_module" && "E:\New folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\ctest.exe" --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+build src\examples\13_module\test: phony src\examples\13_module\CMakeFiles\test.util
+
+#############################################
+# Utility command for edit_cache
+
+build src\examples\13_module\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Kien Yee\source\repos\acc-cosc-1337-fall-2019-kien-yee\out\build\x64-Debug\src\examples\13_module" && "E:\New folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+build src\examples\13_module\edit_cache: phony src\examples\13_module\CMakeFiles\edit_cache.util
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/src/examples/13_module/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src\examples\13_module\01_recursion\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Kien Yee\source\repos\acc-cosc-1337-fall-2019-kien-yee\out\build\x64-Debug\src\examples\13_module\01_recursion" && "E:\New folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -S"C:\Users\Kien Yee\source\repos\acc-cosc-1337-fall-2019-kien-yee" -B"C:\Users\Kien Yee\source\repos\acc-cosc-1337-fall-2019-kien-yee\out\build\x64-Debug""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+build src\examples\13_module\01_recursion\rebuild_cache: phony src\examples\13_module\01_recursion\CMakeFiles\rebuild_cache.util
+
+#############################################
+# Utility command for test
+
+build src\examples\13_module\01_recursion\CMakeFiles\test.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Kien Yee\source\repos\acc-cosc-1337-fall-2019-kien-yee\out\build\x64-Debug\src\examples\13_module\01_recursion" && "E:\New folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\ctest.exe" --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+build src\examples\13_module\01_recursion\test: phony src\examples\13_module\01_recursion\CMakeFiles\test.util
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target ex_13_01_library
+
+
+#############################################
+# Order-only phony target for ex_13_01_library
+
+build cmake_object_order_depends_target_ex_13_01_library: phony || src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_library.dir
+build src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_library.dir\recursion.cpp.obj: CXX_COMPILER__ex_13_01_library ..\..\..\src\examples\13_module\01_recursion\recursion.cpp || cmake_object_order_depends_target_ex_13_01_library
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /ZI /Ob0 /Od /RTC1 /JMC
+  INCLUDES = -I..\..\..\inc -ICMakeFiles\ShowIncludes -I..\..\..\src\classwork\01_assign -I..\..\..\src\classwork\02_assign -I..\..\..\src\classwork\03_assign -I..\..\..\src\classwork\04_assign -I..\..\..\src\classwork\05_assign -I..\..\..\src\classwork\11_assign -I..\..\..\src\examples\01_module\01_output -I..\..\..\src\examples\01_module\02_variables -I..\..\..\src\examples\01_module\03_input -I..\..\..\src\examples\01_module\04_expressions -I..\..\..\src\examples\01_module\05_auto -I..\..\..\src\examples\02_module\01_if -I..\..\..\src\examples\02_module\02_if_else -I..\..\..\src\examples\02_module\03_switch -I..\..\..\src\examples\03_module\01_while -I..\..\..\src\examples\03_module\02_for -I..\..\..\src\examples\03_module\03_do_while -I..\..\..\src\examples\03_module\04_for_ranged -I..\..\..\src\examples\03_module\05_value_and_reference_params -I..\..\..\src\examples\03_module\06_vectors -I..\..\..\src\examples\03_module\07_vectors_for_ranged -I..\..\..\src\examples\04_module\01_bank -I..\..\..\src\examples\04_module\02_gui -I..\..\..\src\examples\07_module -I..\..\..\src\examples\08_module -I..\..\..\src\examples\09_module -I..\..\..\src\examples\10_module\01_lib -I..\..\..\src\examples\10_module\01_shapes -I..\..\..\src\examples\10_module\02_clock -I..\..\..\src\examples\11_module\01_ref_pointers -I..\..\..\src\examples\11_module\02_dynamic_memory -I..\..\..\src\examples\11_module\03_memory_leak -I..\..\..\src\examples\11_module\04_dangling_pointer -I..\..\..\src\examples\11_module\05_raii -I..\..\..\src\examples\11_module\06_destructors -I..\..\..\src\examples\11_module\07_class_copy -I..\..\..\src\examples\11_module\08_rule_of_3 -I..\..\..\src\examples\11_module\09_rule_of_5 -I..\..\..\src\examples\12_module\01_arrays_mem -I..\..\..\src\examples\12_module\02_arrays_access -I..\..\..\src\examples\12_module\03_arrays_for_range -I..\..\..\src\examples\12_module\04_arrays_pointers -I..\..\..\src\examples\12_module\05_arrays_functions -I..\..\..\src\examples\12_module\06_arrays_char -I..\..\..\src\examples\12_module\07_arrays_dyn_ch -I..\..\..\src\examples\12_module\08_arrays_dyn_1 -I..\..\..\src\examples\12_module\09_arrays_dyn_2 -I..\..\..\src\examples\12_module\10_arrays_dyn_3 -I..\..\..\src\examples\13_module\01_recursion -I..\..\..\src\homework\01_expressions -I..\..\..\src\homework\02_decisions -I..\..\..\src\homework\03_iteration -I..\..\..\src\homework\04_vectors -I..\..\..\src\homework\tic_tac_toe -I..\..\..\src\homework\tic_tac_toe_gui
+  OBJECT_DIR = src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_library.dir
+  OBJECT_FILE_DIR = src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_library.dir
+  TARGET_COMPILE_PDB = src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_library.dir\ex_13_01_library.pdb
+  TARGET_PDB = src\examples\13_module\01_recursion\ex_13_01_library.pdb
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target ex_13_01_library
+
+
+#############################################
+# Link the static library src\examples\13_module\01_recursion\ex_13_01_library.lib
+
+build src\examples\13_module\01_recursion\ex_13_01_library.lib: CXX_STATIC_LIBRARY_LINKER__ex_13_01_library src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_library.dir\recursion.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /ZI /Ob0 /Od /RTC1 /JMC
+  LINK_FLAGS = /machine:x64
+  OBJECT_DIR = src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_library.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_library.dir\ex_13_01_library.pdb
+  TARGET_FILE = src\examples\13_module\01_recursion\ex_13_01_library.lib
+  TARGET_PDB = src\examples\13_module\01_recursion\ex_13_01_library.pdb
+# =============================================================================
+# Object build statements for EXECUTABLE target ex_13_01_exe
+
+
+#############################################
+# Order-only phony target for ex_13_01_exe
+
+build cmake_object_order_depends_target_ex_13_01_exe: phony || src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_exe.dir
+build src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_exe.dir\main.cpp.obj: CXX_COMPILER__ex_13_01_exe ..\..\..\src\examples\13_module\01_recursion\main.cpp || cmake_object_order_depends_target_ex_13_01_exe
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /ZI /Ob0 /Od /RTC1 /JMC
+  INCLUDES = -I..\..\..\inc -ICMakeFiles\ShowIncludes -I..\..\..\src\classwork\01_assign -I..\..\..\src\classwork\02_assign -I..\..\..\src\classwork\03_assign -I..\..\..\src\classwork\04_assign -I..\..\..\src\classwork\05_assign -I..\..\..\src\classwork\11_assign -I..\..\..\src\examples\01_module\01_output -I..\..\..\src\examples\01_module\02_variables -I..\..\..\src\examples\01_module\03_input -I..\..\..\src\examples\01_module\04_expressions -I..\..\..\src\examples\01_module\05_auto -I..\..\..\src\examples\02_module\01_if -I..\..\..\src\examples\02_module\02_if_else -I..\..\..\src\examples\02_module\03_switch -I..\..\..\src\examples\03_module\01_while -I..\..\..\src\examples\03_module\02_for -I..\..\..\src\examples\03_module\03_do_while -I..\..\..\src\examples\03_module\04_for_ranged -I..\..\..\src\examples\03_module\05_value_and_reference_params -I..\..\..\src\examples\03_module\06_vectors -I..\..\..\src\examples\03_module\07_vectors_for_ranged -I..\..\..\src\examples\04_module\01_bank -I..\..\..\src\examples\04_module\02_gui -I..\..\..\src\examples\07_module -I..\..\..\src\examples\08_module -I..\..\..\src\examples\09_module -I..\..\..\src\examples\10_module\01_lib -I..\..\..\src\examples\10_module\01_shapes -I..\..\..\src\examples\10_module\02_clock -I..\..\..\src\examples\11_module\01_ref_pointers -I..\..\..\src\examples\11_module\02_dynamic_memory -I..\..\..\src\examples\11_module\03_memory_leak -I..\..\..\src\examples\11_module\04_dangling_pointer -I..\..\..\src\examples\11_module\05_raii -I..\..\..\src\examples\11_module\06_destructors -I..\..\..\src\examples\11_module\07_class_copy -I..\..\..\src\examples\11_module\08_rule_of_3 -I..\..\..\src\examples\11_module\09_rule_of_5 -I..\..\..\src\examples\12_module\01_arrays_mem -I..\..\..\src\examples\12_module\02_arrays_access -I..\..\..\src\examples\12_module\03_arrays_for_range -I..\..\..\src\examples\12_module\04_arrays_pointers -I..\..\..\src\examples\12_module\05_arrays_functions -I..\..\..\src\examples\12_module\06_arrays_char -I..\..\..\src\examples\12_module\07_arrays_dyn_ch -I..\..\..\src\examples\12_module\08_arrays_dyn_1 -I..\..\..\src\examples\12_module\09_arrays_dyn_2 -I..\..\..\src\examples\12_module\10_arrays_dyn_3 -I..\..\..\src\examples\13_module\01_recursion -I..\..\..\src\homework\01_expressions -I..\..\..\src\homework\02_decisions -I..\..\..\src\homework\03_iteration -I..\..\..\src\homework\04_vectors -I..\..\..\src\homework\tic_tac_toe -I..\..\..\src\homework\tic_tac_toe_gui
+  OBJECT_DIR = src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_exe.dir
+  OBJECT_FILE_DIR = src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_exe.dir
+  TARGET_COMPILE_PDB = src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_exe.dir\
+  TARGET_PDB = src\examples\13_module\01_recursion\ex_13_01_exe.pdb
+build src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_exe.dir\recursion.cpp.obj: CXX_COMPILER__ex_13_01_exe ..\..\..\src\examples\13_module\01_recursion\recursion.cpp || cmake_object_order_depends_target_ex_13_01_exe
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /ZI /Ob0 /Od /RTC1 /JMC
+  INCLUDES = -I..\..\..\inc -ICMakeFiles\ShowIncludes -I..\..\..\src\classwork\01_assign -I..\..\..\src\classwork\02_assign -I..\..\..\src\classwork\03_assign -I..\..\..\src\classwork\04_assign -I..\..\..\src\classwork\05_assign -I..\..\..\src\classwork\11_assign -I..\..\..\src\examples\01_module\01_output -I..\..\..\src\examples\01_module\02_variables -I..\..\..\src\examples\01_module\03_input -I..\..\..\src\examples\01_module\04_expressions -I..\..\..\src\examples\01_module\05_auto -I..\..\..\src\examples\02_module\01_if -I..\..\..\src\examples\02_module\02_if_else -I..\..\..\src\examples\02_module\03_switch -I..\..\..\src\examples\03_module\01_while -I..\..\..\src\examples\03_module\02_for -I..\..\..\src\examples\03_module\03_do_while -I..\..\..\src\examples\03_module\04_for_ranged -I..\..\..\src\examples\03_module\05_value_and_reference_params -I..\..\..\src\examples\03_module\06_vectors -I..\..\..\src\examples\03_module\07_vectors_for_ranged -I..\..\..\src\examples\04_module\01_bank -I..\..\..\src\examples\04_module\02_gui -I..\..\..\src\examples\07_module -I..\..\..\src\examples\08_module -I..\..\..\src\examples\09_module -I..\..\..\src\examples\10_module\01_lib -I..\..\..\src\examples\10_module\01_shapes -I..\..\..\src\examples\10_module\02_clock -I..\..\..\src\examples\11_module\01_ref_pointers -I..\..\..\src\examples\11_module\02_dynamic_memory -I..\..\..\src\examples\11_module\03_memory_leak -I..\..\..\src\examples\11_module\04_dangling_pointer -I..\..\..\src\examples\11_module\05_raii -I..\..\..\src\examples\11_module\06_destructors -I..\..\..\src\examples\11_module\07_class_copy -I..\..\..\src\examples\11_module\08_rule_of_3 -I..\..\..\src\examples\11_module\09_rule_of_5 -I..\..\..\src\examples\12_module\01_arrays_mem -I..\..\..\src\examples\12_module\02_arrays_access -I..\..\..\src\examples\12_module\03_arrays_for_range -I..\..\..\src\examples\12_module\04_arrays_pointers -I..\..\..\src\examples\12_module\05_arrays_functions -I..\..\..\src\examples\12_module\06_arrays_char -I..\..\..\src\examples\12_module\07_arrays_dyn_ch -I..\..\..\src\examples\12_module\08_arrays_dyn_1 -I..\..\..\src\examples\12_module\09_arrays_dyn_2 -I..\..\..\src\examples\12_module\10_arrays_dyn_3 -I..\..\..\src\examples\13_module\01_recursion -I..\..\..\src\homework\01_expressions -I..\..\..\src\homework\02_decisions -I..\..\..\src\homework\03_iteration -I..\..\..\src\homework\04_vectors -I..\..\..\src\homework\tic_tac_toe -I..\..\..\src\homework\tic_tac_toe_gui
+  OBJECT_DIR = src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_exe.dir
+  OBJECT_FILE_DIR = src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_exe.dir
+  TARGET_COMPILE_PDB = src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_exe.dir\
+  TARGET_PDB = src\examples\13_module\01_recursion\ex_13_01_exe.pdb
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex_13_01_exe
+
+
+#############################################
+# Link the executable src\examples\13_module\01_recursion\ex_13_01_exe.exe
+
+build src\examples\13_module\01_recursion\ex_13_01_exe.exe: CXX_EXECUTABLE_LINKER__ex_13_01_exe src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_exe.dir\main.cpp.obj src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_exe.dir\recursion.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /ZI /Ob0 /Od /RTC1 /JMC
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_exe.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = src\examples\13_module\01_recursion\CMakeFiles\ex_13_01_exe.dir\
+  TARGET_FILE = src\examples\13_module\01_recursion\ex_13_01_exe.exe
+  TARGET_IMPLIB = src\examples\13_module\01_recursion\ex_13_01_exe.lib
+  TARGET_PDB = src\examples\13_module\01_recursion\ex_13_01_exe.pdb
+
+#############################################
+# Utility command for edit_cache
+
+build src\examples\13_module\01_recursion\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Kien Yee\source\repos\acc-cosc-1337-fall-2019-kien-yee\out\build\x64-Debug\src\examples\13_module\01_recursion" && "E:\New folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+build src\examples\13_module\01_recursion\edit_cache: phony src\examples\13_module\01_recursion\CMakeFiles\edit_cache.util
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
 # C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/src/CMakeLists.txt
 # =============================================================================
 
@@ -1345,6 +1486,10 @@ build ex_12_10_exe: phony src\examples\12_module\10_arrays_dyn_3\ex_12_10_exe.ex
 build ex_12_10_exe.exe: phony src\examples\12_module\10_arrays_dyn_3\ex_12_10_exe.exe
 build ex_12_tests: phony test\examples_test\12_module_test\ex_12_tests.exe
 build ex_12_tests.exe: phony test\examples_test\12_module_test\ex_12_tests.exe
+build ex_13_01_exe: phony src\examples\13_module\01_recursion\ex_13_01_exe.exe
+build ex_13_01_exe.exe: phony src\examples\13_module\01_recursion\ex_13_01_exe.exe
+build ex_13_01_library: phony src\examples\13_module\01_recursion\ex_13_01_library.lib
+build ex_13_01_library.lib: phony src\examples\13_module\01_recursion\ex_13_01_library.lib
 # =============================================================================
 # Folder targets.
 
@@ -1372,7 +1517,7 @@ build  src\classwork\11_assign\all: phony cw_11_library cw_11_exe
 #############################################
 # Folder: C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples
 
-build  src\examples\all: phony src\examples\12_module\all
+build  src\examples\all: phony src\examples\12_module\all src\examples\13_module\all
 # =============================================================================
 
 #############################################
@@ -1442,6 +1587,18 @@ build  src\examples\12_module\10_arrays_dyn_3\all: phony ex_12_10_exe
 # =============================================================================
 
 #############################################
+# Folder: C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/13_module
+
+build  src\examples\13_module\all: phony src\examples\13_module\01_recursion\all
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/examples/13_module/01_recursion
+
+build  src\examples\13_module\01_recursion\all: phony ex_13_01_library ex_13_01_exe
+# =============================================================================
+
+#############################################
 # Folder: C:/Users/Kien Yee/source/repos/acc-cosc-1337-fall-2019-kien-yee/out/build/x64-Debug/src/homework
 
 build  src\homework\all: phony
@@ -1482,7 +1639,7 @@ build  test\homework_test\all: phony
 #############################################
 # The main all target.
 
-build all: phony src\classwork\11_assign\cw_11_library.lib src\classwork\11_assign\cw_11_exe.exe src\examples\12_module\01_arrays_mem\ex_12_01_exe.exe src\examples\12_module\02_arrays_access\ex_12_02_exe.exe src\examples\12_module\03_arrays_for_range\ex_12_03_exe.exe src\examples\12_module\04_arrays_pointers\ex_12_04_exe.exe src\examples\12_module\05_arrays_functions\ex_12_05_exe.exe src\examples\12_module\06_arrays_char\ex_12_06_exe.exe src\examples\12_module\07_arrays_dyn_ch\ex_12_07_exe.exe src\examples\12_module\08_arrays_dyn_1\ex_12_08_library.lib src\examples\12_module\08_arrays_dyn_1\ex_12_08_exe.exe src\examples\12_module\09_arrays_dyn_2\ex_12_09_exe.exe src\examples\12_module\10_arrays_dyn_3\ex_12_10_exe.exe test\examples_test\12_module_test\ex_12_tests.exe
+build all: phony src\classwork\11_assign\cw_11_library.lib src\classwork\11_assign\cw_11_exe.exe src\examples\12_module\01_arrays_mem\ex_12_01_exe.exe src\examples\12_module\02_arrays_access\ex_12_02_exe.exe src\examples\12_module\03_arrays_for_range\ex_12_03_exe.exe src\examples\12_module\04_arrays_pointers\ex_12_04_exe.exe src\examples\12_module\05_arrays_functions\ex_12_05_exe.exe src\examples\12_module\06_arrays_char\ex_12_06_exe.exe src\examples\12_module\07_arrays_dyn_ch\ex_12_07_exe.exe src\examples\12_module\08_arrays_dyn_1\ex_12_08_library.lib src\examples\12_module\08_arrays_dyn_1\ex_12_08_exe.exe src\examples\12_module\09_arrays_dyn_2\ex_12_09_exe.exe src\examples\12_module\10_arrays_dyn_3\ex_12_10_exe.exe src\examples\13_module\01_recursion\ex_13_01_library.lib src\examples\13_module\01_recursion\ex_13_01_exe.exe test\examples_test\12_module_test\ex_12_tests.exe
 
 #############################################
 # Make the all target the default.
@@ -1492,13 +1649,13 @@ default all
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ..\..\..\CMakeLists.txt ..\..\..\src\CMakeLists.txt ..\..\..\src\classwork\11_assign\CMakeLists.txt ..\..\..\src\classwork\CMakeLists.txt ..\..\..\src\examples\12_module\01_arrays_mem\CMakeLists.txt ..\..\..\src\examples\12_module\02_arrays_access\CMakeLists.txt ..\..\..\src\examples\12_module\03_arrays_for_range\CMakeLists.txt ..\..\..\src\examples\12_module\04_arrays_pointers\CMakeLists.txt ..\..\..\src\examples\12_module\05_arrays_functions\CMakeLists.txt ..\..\..\src\examples\12_module\06_arrays_char\CMakeLists.txt ..\..\..\src\examples\12_module\07_arrays_dyn_ch\CMakeLists.txt ..\..\..\src\examples\12_module\08_arrays_dyn_1\CMakeLists.txt ..\..\..\src\examples\12_module\09_arrays_dyn_2\CMakeLists.txt ..\..\..\src\examples\12_module\10_arrays_dyn_3\CMakeLists.txt ..\..\..\src\examples\12_module\CMakeLists.txt ..\..\..\src\examples\CMakeLists.txt ..\..\..\src\homework\CMakeLists.txt ..\..\..\test\CMakeLists.txt ..\..\..\test\classwork_test\CMakeLists.txt ..\..\..\test\examples_test\12_module_test\CMakeLists.txt ..\..\..\test\examples_test\CMakeLists.txt ..\..\..\test\homework_test\CMakeLists.txt CMakeCache.txt CMakeFiles\3.14.19060802-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.14.19060802-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.14.19060802-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.14.19060802-MSVC_2\CMakeSystem.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | ..\..\..\CMakeLists.txt ..\..\..\src\CMakeLists.txt ..\..\..\src\classwork\11_assign\CMakeLists.txt ..\..\..\src\classwork\CMakeLists.txt ..\..\..\src\examples\12_module\01_arrays_mem\CMakeLists.txt ..\..\..\src\examples\12_module\02_arrays_access\CMakeLists.txt ..\..\..\src\examples\12_module\03_arrays_for_range\CMakeLists.txt ..\..\..\src\examples\12_module\04_arrays_pointers\CMakeLists.txt ..\..\..\src\examples\12_module\05_arrays_functions\CMakeLists.txt ..\..\..\src\examples\12_module\06_arrays_char\CMakeLists.txt ..\..\..\src\examples\12_module\07_arrays_dyn_ch\CMakeLists.txt ..\..\..\src\examples\12_module\08_arrays_dyn_1\CMakeLists.txt ..\..\..\src\examples\12_module\09_arrays_dyn_2\CMakeLists.txt ..\..\..\src\examples\12_module\10_arrays_dyn_3\CMakeLists.txt ..\..\..\src\examples\12_module\CMakeLists.txt ..\..\..\src\examples\13_module\01_recursion\CMakeLists.txt ..\..\..\src\examples\13_module\CMakeLists.txt ..\..\..\src\examples\CMakeLists.txt ..\..\..\src\homework\CMakeLists.txt ..\..\..\test\CMakeLists.txt ..\..\..\test\classwork_test\CMakeLists.txt ..\..\..\test\examples_test\12_module_test\CMakeLists.txt ..\..\..\test\examples_test\CMakeLists.txt ..\..\..\test\homework_test\CMakeLists.txt CMakeCache.txt CMakeFiles\3.14.19060802-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.14.19060802-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.14.19060802-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.14.19060802-MSVC_2\CMakeSystem.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake
   pool = console
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ..\..\..\CMakeLists.txt ..\..\..\src\CMakeLists.txt ..\..\..\src\classwork\11_assign\CMakeLists.txt ..\..\..\src\classwork\CMakeLists.txt ..\..\..\src\examples\12_module\01_arrays_mem\CMakeLists.txt ..\..\..\src\examples\12_module\02_arrays_access\CMakeLists.txt ..\..\..\src\examples\12_module\03_arrays_for_range\CMakeLists.txt ..\..\..\src\examples\12_module\04_arrays_pointers\CMakeLists.txt ..\..\..\src\examples\12_module\05_arrays_functions\CMakeLists.txt ..\..\..\src\examples\12_module\06_arrays_char\CMakeLists.txt ..\..\..\src\examples\12_module\07_arrays_dyn_ch\CMakeLists.txt ..\..\..\src\examples\12_module\08_arrays_dyn_1\CMakeLists.txt ..\..\..\src\examples\12_module\09_arrays_dyn_2\CMakeLists.txt ..\..\..\src\examples\12_module\10_arrays_dyn_3\CMakeLists.txt ..\..\..\src\examples\12_module\CMakeLists.txt ..\..\..\src\examples\CMakeLists.txt ..\..\..\src\homework\CMakeLists.txt ..\..\..\test\CMakeLists.txt ..\..\..\test\classwork_test\CMakeLists.txt ..\..\..\test\examples_test\12_module_test\CMakeLists.txt ..\..\..\test\examples_test\CMakeLists.txt ..\..\..\test\homework_test\CMakeLists.txt CMakeCache.txt CMakeFiles\3.14.19060802-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.14.19060802-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.14.19060802-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.14.19060802-MSVC_2\CMakeSystem.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake: phony
+build ..\..\..\CMakeLists.txt ..\..\..\src\CMakeLists.txt ..\..\..\src\classwork\11_assign\CMakeLists.txt ..\..\..\src\classwork\CMakeLists.txt ..\..\..\src\examples\12_module\01_arrays_mem\CMakeLists.txt ..\..\..\src\examples\12_module\02_arrays_access\CMakeLists.txt ..\..\..\src\examples\12_module\03_arrays_for_range\CMakeLists.txt ..\..\..\src\examples\12_module\04_arrays_pointers\CMakeLists.txt ..\..\..\src\examples\12_module\05_arrays_functions\CMakeLists.txt ..\..\..\src\examples\12_module\06_arrays_char\CMakeLists.txt ..\..\..\src\examples\12_module\07_arrays_dyn_ch\CMakeLists.txt ..\..\..\src\examples\12_module\08_arrays_dyn_1\CMakeLists.txt ..\..\..\src\examples\12_module\09_arrays_dyn_2\CMakeLists.txt ..\..\..\src\examples\12_module\10_arrays_dyn_3\CMakeLists.txt ..\..\..\src\examples\12_module\CMakeLists.txt ..\..\..\src\examples\13_module\01_recursion\CMakeLists.txt ..\..\..\src\examples\13_module\CMakeLists.txt ..\..\..\src\examples\CMakeLists.txt ..\..\..\src\homework\CMakeLists.txt ..\..\..\test\CMakeLists.txt ..\..\..\test\classwork_test\CMakeLists.txt ..\..\..\test\examples_test\12_module_test\CMakeLists.txt ..\..\..\test\examples_test\CMakeLists.txt ..\..\..\test\homework_test\CMakeLists.txt CMakeCache.txt CMakeFiles\3.14.19060802-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.14.19060802-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.14.19060802-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.14.19060802-MSVC_2\CMakeSystem.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake E$:\New$ folder\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake: phony
 
 #############################################
 # Clean all the built files.

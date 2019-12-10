@@ -1,6 +1,10 @@
 #include "recursion.h"
 #include<iostream>
 //
+void call_myself()
+{
+	call_myself();
+}
 
 void display(int n)
 {

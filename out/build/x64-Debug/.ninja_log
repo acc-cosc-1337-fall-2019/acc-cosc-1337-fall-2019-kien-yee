@@ -126,3 +126,13 @@
 21	1425	597210965	src/examples/12_module/10_arrays_dyn_3/CMakeFiles/ex_12_10_exe.dir/main.cpp.obj	d15c7683b44fa720
 3	1681	597211016	src/examples/12_module/10_arrays_dyn_3/CMakeFiles/ex_12_10_exe.dir/main.cpp.obj	d15c7683b44fa720
 1682	2313	597211017	src/examples/12_module/10_arrays_dyn_3/ex_12_10_exe.exe	da2856c41e7d764d
+1	830	597638565	build.ninja	9e2a4283c8c222ef
+0	809	597638566	src/examples/13_module/01_recursion/CMakeFiles/ex_13_01_exe.dir/main.cpp.obj	116b44af098959c9
+2	817	597638566	src/examples/13_module/01_recursion/CMakeFiles/ex_13_01_exe.dir/recursion.cpp.obj	967fdcc27d76bdb3
+817	2044	597638567	src/examples/13_module/01_recursion/ex_13_01_exe.exe	541d60e2453f95d1
+8	560	597638595	src/examples/13_module/01_recursion/CMakeFiles/ex_13_01_exe.dir/recursion.cpp.obj	967fdcc27d76bdb3
+6	589	597638595	src/examples/13_module/01_recursion/CMakeFiles/ex_13_01_library.dir/recursion.cpp.obj	f291e4d263696e36
+10	639	597638595	src/examples/12_module/10_arrays_dyn_3/CMakeFiles/ex_12_10_exe.dir/main.cpp.obj	d15c7683b44fa720
+1	216	597638600	src/examples/13_module/01_recursion/ex_13_01_exe.exe	541d60e2453f95d1
+1	749	597638960	src/examples/13_module/01_recursion/CMakeFiles/ex_13_01_exe.dir/main.cpp.obj	116b44af098959c9
+750	1017	597638960	src/examples/13_module/01_recursion/ex_13_01_exe.exe	541d60e2453f95d1
